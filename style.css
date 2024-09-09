@@ -5,6 +5,8 @@ body {
   font-weight: 100;
   background: #FFF8E8 ;
   color: #674636 ;
+  background-image: url("./images/edit_7.jpg");
+  background-size: cover;
 }
 
 .image-circle {
@@ -21,7 +23,7 @@ body {
     margin: 20px auto;
     text-align: center;
     width: 50%;
-}
+  }
 
 .bottom-card {
     background: #AAB396;
@@ -30,6 +32,23 @@ body {
     margin: 20px auto;
     text-align: center;
     width: 50%;
+}
+
+.photo-card {
+  background: #AAB396;
+  padding: 20px;
+  border: 5px solid #737965;
+  margin: 20px auto;
+  text-align: center;
+  width: 50%;
+}
+
+
+.image-square {
+  object-fit: cover;
+  width: 230px;
+  height: 230px;
+  border-radius: 5%;
 }
 
 a {
